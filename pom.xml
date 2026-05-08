@@ -417,4 +417,13 @@
       </build>
     </profile>
   </profiles>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <version>4.0.6</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
