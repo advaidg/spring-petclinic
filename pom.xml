@@ -417,4 +417,13 @@
       </build>
     </profile>
   </profiles>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>7.0.7, 6.2.18</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
